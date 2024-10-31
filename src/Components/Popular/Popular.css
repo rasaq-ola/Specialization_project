@@ -21,6 +21,7 @@
     display: flex;
     gap: 30px;
     justify-items: center;
+    padding-left: 210px;
 }
 .popular-item img{
     width: 150px;
