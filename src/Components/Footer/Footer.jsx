@@ -1,6 +1,10 @@
 import React from 'react'
 import './Footer.css'
 import Olalogo from '../Assets/Olalogo.png'
+import Instagramicon from '../Assets/Instagramicon.png'
+import Linkedinicon from '../Assets/Linkedinicon.png'
+import Facebookicon from '../Assets/Facebookicon.png'
+import Twittericon from '../Assets/Twittericon.png'
 
 const Footer = () => {
   return (
@@ -18,8 +22,21 @@ const Footer = () => {
         </ul>
         <div className="footer-social-icon">
             <div className="footer-icons-container">
-                <img src="" alt="" />
+                <img src={Instagramicon} alt="" />
             </div>
+            <div className="footer-icons-container">
+                <img src={Facebookicon} alt="" />
+            </div>
+            <div className="footer-icons-container">
+                <img src={Twittericon} alt="" />
+            </div>
+            <div className="footer-icons-container">
+                <img src={Linkedinicon} alt="" />
+            </div>
+        </div>
+        <div className="footer-copyright">
+            <hr />
+            <p>Copright @ 2024 - All right reserved</p>
         </div>
     </div>
   )
